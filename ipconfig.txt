@@ -1,0 +1,38 @@
+Microsoft Windows [Version 10.0.26100.4770]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sakth>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::4c8:b1e3:26b5:5430%18
+   IPv4 Address. . . . . . . . . . . : 192.168.1.4
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+C:\Users\sakth>nmap -sn 192.168.0.0/24
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 18:42 +0530
+Stats: 0:03:11 elapsed; 0 hosts completed (0 up), 256 undergoing Ping Scan
+Ping Scan Timing: About 92.43% done; ETC: 18:46 (0:00:16 remaining)
+Stats: 0:03:17 elapsed; 0 hosts completed (0 up), 256 undergoing Ping Scan
+Ping Scan Timing: About 95.41% done; ETC: 18:46 (0:00:09 remaining)
+Nmap done: 256 IP addresses (0 hosts up) scanned in 235.23 seconds

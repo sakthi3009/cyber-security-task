@@ -1,0 +1,42 @@
+Microsoft Windows [Version 10.0.26100.4770]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sakth>nmap _nmap -sS 192.168.1.0/24
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 18:56 +0530
+Failed to resolve "_nmap".
+Nmap scan report for 192.168.1.1
+Host is up (0.0087s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 70:B6:4F:1D:D2:95 (Guangzhou V-Solution Electronic Technology)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+MAC Address: 24:0F:9B:17:DC:90 (Hangzhou Hikvision Digital Technology)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.00076s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 256 IP addresses (3 hosts up) scanned in 39.15 seconds
+
+C:\Users\sakth>Get-WmiObject win32_systemdriver | where-Object {$_.Name -like "*npcap*"}
+'Get-WmiObject' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\sakth>sakthi_result.txt
