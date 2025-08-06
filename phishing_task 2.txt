@@ -1,0 +1,31 @@
+Subject: Fw: Verify your identity to log in to DocuSign
+
+From: delivery@sharecloud.us
+To: [Your Email Address]
+Date: [Today’s Date and Time]
+
+DocuSign
+
+Security information has changed
+
+[Verify Activity]
+
+A new email address, authenticator app, or phone number has been added to your account. This information will be used to provide additional security when accessing DocuSign.
+
+Please log in to your DocuSign account to change your settings.
+
+About DocuSign
+Sign documents electronically in just minutes. It’s safe, secure, and legally binding. Whether you’re in an office, at home, on-the-go -- or even across the globe -- DocuSign provides a professional trusted solution for Digital Transaction Management™.
+  
+****
+1.Checking the sender E-mail Address:
+ It is a cloud sharing website, Offical DocSign emails come only forn domain like @docusign.com.
+ Most of the email is from the non-official domain .
+2.verify the email header:
+   By analyzing the domain matches the offical sender(e.g.,DocuSign should be docu sign or docu.com) is a mismatch is red flag. Using a email header analyzer tool SPF,DKIM,DMARC.
+
+3. Spot Other Anomalies
+
+      Check Message-ID and Timestamps: Strange patterns or major inconsistencies could signal a forged or automated phishing campaign.
+
+Review Routing and IP: Use the IPs listed in Received headers to trace where the email actually originated. If it didn’t come from DocuSign-owned infrastructure, it’s suspect.
