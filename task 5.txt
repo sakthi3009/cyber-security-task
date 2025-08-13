@@ -1,0 +1,14 @@
+TASK:5
+
+The summary are: ip address:192.168.1.1
+     1.ARP:
+          I am requesting the browser from my device to open a google with the src:192.168.1.3 and the dst:218.218.112.65 through the port address"53".
+      
+
+    2.TCP:
+          I had requested through the brave browser src port :192.168.1.3 and dst:108.159.15.74 through the port (HTTP) address "443" .
+  
+
+    3.TCP:
+          
+           I am sending my packets to a private gateway with the src:218.248.112.65 to the dst:192.168.1.3 through the gateway  57.144.215.32.
